@@ -1,0 +1,195 @@
+// media
+
+@media (min-width: 700px) and (max-width: 1060px) {
+    nav{
+        width: 95%;
+        .navbar-container-site{
+            .navbar-a{
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    main{
+        .container-bottom-main{
+            width: 100%;
+        }
+    }
+    .container-wrap{
+        .container-also{
+            .box-wrapper{
+                flex-wrap: wrap;
+                .box{
+                    width: 48%;
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 420px) and (max-width: 699.99px) {
+    nav{
+        width: 95%;
+        .navbar-container{
+            .navbar-img{
+                width: 30%;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar-button{
+                width: 20%;
+                button{
+                    width: 25%;
+                    font-size: 15px;
+                }
+            }
+        }
+        .navbar-container-site{
+            padding: 0px;
+            .navbar-a{
+                a{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    main{
+        .container-top-main{
+            flex-wrap: wrap;
+            gap: 20px   ;
+            .wrap-img-1{
+                width: 100%;
+            }
+            .container-top-main-end{
+                width: 100%;
+                .wrap-main-end{
+                    margin: 0;
+                }
+            }
+        }
+        .container-bottom-main{
+            width: 100%;
+            .container-details{
+                height: auto;
+            }
+        }
+    }
+    .container-wrap{
+        .fa-solid{
+            display: none;
+        }
+        .container-also{
+            width: 100%;
+            .box-wrapper{
+                width: 100%;
+                flex-wrap: wrap;
+                .box{
+                    width: 48%;
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 0px) and (max-width: 420px) {
+    nav{
+        width: 95%;
+        .navbar-container{
+            .navbar-img{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar-button{
+                width: 25%;
+                button{
+                    width: auto;
+                    font-size: 12px;
+                }
+            }
+        }
+        .navbar-container-site{
+            display: none;
+        }
+    }
+    main{
+        .container-top-main{
+            flex-wrap: wrap;
+            gap: 20px   ;
+            .wrap-img-1{
+                width: 100%;
+            }
+            .container-top-main-end{
+                width: 100%;
+                .wrap-gps-main{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+                .wrap-main-end{
+                    margin: 0;
+                    margin-top: 30px;
+                }
+            }
+        }
+        .container-bottom-main{
+            width: 100%;
+            .container-details{
+                height: auto;
+                padding: 10px;
+                h6{
+                    font-size: 12px;
+                }
+                .p-0{
+                    font-size: 11px;
+                }
+                .p-1{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    .container-wrap{
+        .fa-solid{
+            display: none;
+        }
+        .container-also{
+            width: 100%;
+            .box-wrapper{
+                width: 100%;
+                flex-wrap: wrap;
+                .box{
+                    width: 99%;
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+        .footer-brand-name{
+            width: 100%;
+            .footer-messenger{
+                width: 99%;
+            }
+        }
+        .footer-promo-update{
+            width: 100%;
+        }
+    }
+}

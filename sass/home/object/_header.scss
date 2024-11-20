@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F6FF;
+}
+
+
+
+// input search!
+
+
+.container-input-all{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    .container-input{
+        width: 716px;
+        height: 63px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .container-input-search{
+            input{
+                width: 562.66px;
+                height: 54px;
+                border-radius: 25px;
+                padding-left: 20px;
+                font-size: 22px;
+            }
+        }
+        .container-input-button{
+            button{
+                width: 146px;
+                height: 63px;
+                margin-left: 7px;
+                border: none;
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 23.44px;
+                border-radius: 5px;
+                background-color: $color-smait-blue;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .container-contact{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        .contact-wrap{
+            i{
+                font-size: 22px;
+            }
+            a{
+                text-decoration: none;
+                color: #00000080;
+                font-size: 12px;
+                margin-left: 14px;
+            }
+        }
+    }
+}
+
+
+
+// main
+
+.container-sale{
+    width: 100%;
+    margin-top: 39px;
+    background-color: $color-goldenrod;
+    padding-bottom: 36px;
+    .container-d-flex{
+        display: flex;
+        .container-sale-img{
+            margin: 55px 76px 52px 72px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .container-hot-deals{
+            width: 466px;
+            height: 259px;
+            margin-top: 148px;
+            h2{
+                font-family: Roboto;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 25.78px;
+            }
+            h1{
+                font-family: Roboto;
+                font-size: 48px;
+                font-weight: 700;
+                color: #A86A3D;
+                text-align: center;
+                margin-top: 25px;
+                margin-bottom: 40px;
+            }
+            button{
+                width: 124px;
+                height: 50px;
+                background-color: $color-smait-blue;
+                color: white;
+                font-family: Roboto;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 17.58px;
+                letter-spacing: 0.03em;
+                text-align: center;
+                border: 1px solid white;
+                box-shadow: 0px 0px 10px black;
+                cursor: pointer;
+            }
+        }
+    }
+    .container-button-next{
+        width: 100px;
+        height: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 733px;
+        .button-dark{
+            background-color: black;
+        }
+        button{
+            width: 12px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            background-color: #C4C4C4;
+            cursor: pointer;
+        }
+    }
+}
+
+
+// main chair and vase
+.container-chair-vase{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    .wrapper-chair{
+        width: 636px;
+        display: flex;
+        background-color: white;
+        .wrap-chair-img{
+            width: 353px;
+            img{
+                width: 100%;
+            }
+        }
+        .wrap-chair-text{
+           margin-top: 150px;
+        }
+    }
+    .wrapper-vase{
+        width: 636px;
+        display: flex;
+        background-color: #EAE9E7;
+        .wrap-vase-img{
+            width: 246px;
+            img{
+                width: 100%;
+            }
+        }
+        .wrap-vase-text{
+            width: 256px;
+            margin-top: 111px;
+            background-color: #EAE9E7;
+            margin-left: 15px;
+        }
+    }
+    h1{
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    button{
+        width: 124px;
+        height: 48px;
+        background-color: $color-smait-blue;
+        color: white;
+        border: 1px solid white;
+        box-shadow: 0px 0px 10px black;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+}
+
+
+// main-box
+
+
+.container-box{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .box{
+        width: 24%;
+        margin-top: 57px;
+        .box-img {
+            width: 100%;
+            height: 422px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            .box-sale-like-wrapper {
+                background-color: rgba(0, 0, 0, 0.4);
+                transition: all 1s;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                pointer-events: none;
+                .box-sale-like-wrap {
+                    width: 70%;
+                    height: 56px;
+                    border-radius: 30px;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .box-line {
+                        width: 1px;
+                        height: 30px;
+                        background-color: black;
+                        margin: 0px 27px;
+                    }
+                    button {
+                        background-color: white;
+                        border: none;
+                        font-size: 21px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &:hover .box-sale-like-wrapper {
+                opacity: 1;
+                pointer-events: auto;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        
+        .box-text{
+            h3{
+                font-family: Roboto;
+                font-size: 21px;
+                font-weight: 700;
+                margin-top: 32px;
+            }
+            .stars {
+                display: inline-block;
+                font-size: 30px;
+                color: #ddd;
+                direction: rtl; 
+                margin-top: 12px;
+                input {
+                    display: none;
+                }
+                label {
+                    cursor: pointer;
+                    padding: 0;
+                    margin: 0;
+                }
+                label:before {
+                    content: "★";
+                    color: #ddd;
+                }
+                input:checked ~ label:before {
+                    color: gold;
+                }
+                label:hover,
+                label:hover ~ label {
+                    color: gold;
+                }
+                input:focus ~ label {
+                    outline: 2px solid #ff0;
+                }
+            }
+            h2{
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 700;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+
+
+
+// main  BEDSHEET
+
+
+.container-bedsheet-sets{
+    width: 100%;
+    height: auto;
+    background-image: url("../image/home/bedsheet/Rectangle\ 13.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 94px;
+    padding: 115px 0px 57px 136px;
+    .mini-container-bedsheet{
+        width: 545px;
+        height: 338px;
+        padding: 61px 103px 56px 131px;
+        background-color: #F9D370CC;
+        h1{
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .discount{
+            margin-top: 27px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 181px;
+            height: 34px;
+            h2{
+                font-family: Roboto;
+                font-size: 28px;
+                font-weight: 700;
+                color: #7B5136;
+            }
+            del{
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                color: #7B5136;
+            }
+        }
+        p{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 16px;
+        }
+        button{
+            width: 124px;
+            height: 48px;
+            border: 1px solid white;
+            color: white;
+            background-color: $color-smait-blue;
+            box-shadow: 0px 0px 10px black;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    }
+}
+
+
+// main Top rating
+
+.container-top{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h1{
+        width: 100%;
+        font-family: Roboto;
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 36px;
+    }
+    .box-card:hover{
+        box-shadow: 0 0 15px black;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    .box-card{
+        width: 32%;
+        display: flex;
+        margin-top: 24px;
+
+        .top-img{
+            width: 50%;
+            height: auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .top-text{
+            width: 50%;
+            padding: 77px 7px 0px 32px;
+            h3{
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .top-star{
+                margin-top: 14px;
+                margin-bottom: 19px;
+                .fa-solid{
+                   color: $color-goldenrod;
+                }
+            }
+            h2{
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+    .top-button{
+        width: 100%;
+        margin-top: 88px;
+        text-align: center;
+        button{
+            width: 273px;
+            height: 51px;
+            background-color: $color-smait-blue;
+            color: white;
+            border: none;
+            box-shadow: 0 0 5px black;
+            cursor: pointer;
+        }
+    }
+}
+
+
+// main sing up
+
+.container-sing-up{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    .text-sing-up{
+        h1{
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        p{
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 8px;
+        }
+    }
+    .container-sing-email{
+        width: 600px;
+        height: 50px;
+        display: flex;
+        input{
+            width: 515px;
+            height: 100%;
+            padding: 15px 26px;
+            border: 1px solid black;
+        }
+        button{
+            width: 85px;
+            height: 100%;
+            border: none;
+            background-color: $color-smait-blue;
+            color: white;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-zircon;
+}
+
+// main
+
+
+main{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    .container-top-main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .wrap-img-1{
+            width: 32%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .container-top-main-end{
+            width: 32%;
+            h2{
+                font-family: Roboto;
+                font-size: 28px;
+                font-weight: 500;
+            }
+            h3{
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 500;
+                margin-top: 35px;
+            }
+            .wrap-img-2{
+                width: 53px;
+                height: 72px;
+                border: 1px solid black;
+                margin-top: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .wrap-gps-main{
+                display: flex;
+                color: rgba(0, 0, 0, 0.5);
+                margin-top: 34px;
+                gap: 11px;
+                p{
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            .wrap-main-end{
+                width: 100%;
+                margin-left: 18px;
+                margin-top: 34px;
+                flex-wrap: wrap;
+                select{
+                    width: 100%;
+                    height: 54px;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 18px 24px 17px 20px;
+                    background-color: $color-zircon;
+                }
+                button{
+                    width: 100%;
+                    height: 54px;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 700;
+                    background-color: $color-smait-blue;
+                    color: white;
+                    border: none;
+                    box-shadow: 0 0 10px black;
+                    margin-top: 13px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .container-bottom-main{
+        width: 858px;
+        margin-top: 46px;
+        flex-wrap: wrap;
+        .wrap-img-3{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .container-details{
+            width: 100%;
+            height: 309px;
+            background-color: $color-goldenrod;
+            margin-top: 46px;
+            padding: 60px 80px;
+            h6{
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 15px;
+            }
+            .p-0{
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                color: #0A032AB2;
+                margin-top: 40px;
+            }
+            .p-1{
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500; 
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+
+// main Also
+
+.container-wrap{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    .fa-solid{
+        font-size: 70px;
+        color: rgba(0, 0, 0,0.5);
+        cursor: pointer;
+    }
+    .container-also{
+        width: 90%;
+        h1{
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .box-wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .box{
+                width: 24%;
+                margin-top: 40px;
+                .img-box{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                h5{
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin-top: 24px;
+                }
+                .button-wrapper{
+                    display: flex;
+                    gap: 8px;
+                    margin-top: 19px;
+                    .color-all{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        border: none;
+                    }
+                    .color-1{
+                        background-color: #DDEDD6;
+                    }
+                    .color-2{
+                        background-color: #F3DDD8;
+                    }
+                    .color-3{
+                        background-color: #C4BDB6;
+                    }
+                }
+                h3{
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-top: 19px;
+                }
+            }
+        }
+    }
+}

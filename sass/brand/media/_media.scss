@@ -1,0 +1,265 @@
+// media
+
+@media (min-width: 700px) and (max-width: 1060px) {
+    nav{
+        width: 95%;
+        .navbar-container-site{
+            .navbar-a{
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    main{
+        .container-main{
+            flex-wrap: wrap;
+            .container-main-left{
+                width: 100%;
+            }
+            .container-main-rigt{
+                width: 100%;
+            }
+        }
+    }
+    .container-wrap{
+        .container-also{
+            .box-wrapper{
+                flex-wrap: wrap;
+                .box{
+                    width: 48%;
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 420px) and (max-width: 699.99px) {
+    nav{
+        width: 95%;
+        .navbar-container{
+            .navbar-img{
+                width: 30%;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar-button{
+                width: 20%;
+                button{
+                    width: 25%;
+                    font-size: 15px;
+                }
+            }
+        }
+        .navbar-container-site{
+            padding: 0px;
+            .navbar-a{
+                a{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    main{
+        .container-main{
+            flex-wrap: wrap;
+            .container-main-left{
+                width: 100%;
+                .container-checked{
+                    .checked-text-wrap{
+                        .art{
+                            width: 80%;
+                            p{
+                                font-size: 12px;
+                            }
+                        }
+                        .color{
+                            width: 80%;
+                            p{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+            .container-main-rigt{
+                width: 100%;
+            }
+        }
+    }
+    .container-wrap{
+        .fa-solid{
+            display: none;
+        }
+        .container-also{
+            width: 100%;
+            .box-wrapper{
+                width: 100%;
+                flex-wrap: wrap;
+                .box{
+                    width: 48%;
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 0px) and (max-width: 419.99px) {
+    nav{
+        width: 95%;
+        .navbar-container{
+            .navbar-img{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar-button{
+                width: 25%;
+                button{
+                    width: auto;
+                    font-size: 12px;
+                }
+            }
+        }
+        .navbar-container-site{
+            display: none;
+        }
+    }
+    main{
+        .container-main{
+            flex-wrap: wrap;
+            .container-main-left{
+                width: 100%;
+                .container-checked{
+                    flex-wrap: wrap;
+                    .img-checked{
+                        width: 100%;
+                    }
+                    .checked-text-wrap{
+                        margin-top: 25px;
+                        .text-wrap-h3{
+                            h3{
+                                font-size: 13px;
+                            }
+                            .fa-x{
+                                display: none;
+                            }
+                        }
+                        h2{
+                            font-size: 8px;
+                        }
+                        .art{
+                            width: 80%;
+                            p{
+                                font-size: 8px;
+                            }
+                        }
+                        .color{
+                            width: 80%;
+                            p{
+                                font-size: 10px;
+                            }
+                        }
+                        .checked-buttpn-wrap{
+                            width: 40%;
+                            height: 20px;
+                            display: flex;
+                            button{
+                                width: 25%;
+                                height: 100%;
+                                font-size: 11px;
+                            }
+                            select{
+                                width: 74%;
+                                height: 100%;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+                h4{
+                    font-size: 15px;
+                }
+            }
+            .container-main-rigt{
+                width: 100%;
+                height: auto;
+                padding: 20px;
+                h2{
+                    font-size: 15px;
+                }
+                .wrapper-add{
+                    height: 35px;
+                    input{
+                        height: 100%;
+                    }
+                    button{
+                        height: 100%;
+                        font-size: 10px;
+                    }
+                }
+                .order-value{
+                    h5{
+                        font-size: 11px;
+                    }
+                }
+                .shopping{
+                    h5{
+                        font-size: 11px;
+                    }
+                }
+                .total{
+                    h5{
+                        font-size: 11px;
+                    }
+                }
+                .Continue-to-checkout{
+                    height: 35px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .container-wrap{
+        .fa-solid{
+            display: none;
+        }
+        .container-also{
+            width: 100%;
+            .box-wrapper{
+                width: 100%;
+                flex-wrap: wrap;
+                .box{
+                    width: 99%;
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+        .footer-brand-name{
+            width: 100%;
+            .footer-messenger{
+                width: 99%;
+            }
+        }
+        .footer-promo-update{
+            width: 100%;
+        }
+    }
+}

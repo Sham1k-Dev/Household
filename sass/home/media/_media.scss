@@ -1,0 +1,500 @@
+@media (min-width: 700px) and (max-width: 1060px) {
+    nav{
+        width: 95%;
+        .navbar-container-site{
+            .navbar-a{
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .container-input-all{
+        width: 100%;
+        .container-input{
+            width: 50%;
+            height: 45px;
+            .container-input-search{
+                width: 75%;
+                input{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 16px;
+                }
+            }
+            .container-input-button{
+                width: 20%;
+                button{
+                    width: 100%;
+                    height: 45px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .container-contact{
+            width: 80%;
+        }
+    }
+    .container-sale{
+        width: 100%;
+        .container-d-flex{
+            width: 95%;
+            margin: 0 auto;
+            .container-sale-img{
+                width: 45%;
+                margin: 0;
+            }
+            .container-hot-deals{
+                width: 50%;
+                h2{
+                    font-size: 20px;
+                }
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+        .container-button-next{
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+    }
+    .container-chair-vase{
+        flex-wrap: wrap;
+        .wrapper-chair{
+            width: 100%;
+            .wrap-chair-img{
+                width: 49%;
+            }
+
+        }
+        .wrapper-vase{
+            width: 100%;
+            margin-top: 50px;
+            .wrap-vase-img{
+                width: 49%;
+            }
+        }
+    }
+    .container-box{
+        .box{
+            width: 49%;
+        }
+    }
+    .container-top{
+        h1{
+            text-align: center;
+        }
+        .box-card{
+            width: 49%;
+        }
+    }
+    .container-sing-up{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 420px) and (max-width: 699.99px) {
+    nav{
+        width: 95%;
+        .navbar-container{
+            .navbar-img{
+                width: 30%;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar-button{
+                width: 20%;
+                button{
+                    width: 25%;
+                    font-size: 15px;
+                }
+            }
+        }
+        .navbar-container-site{
+            padding: 0px;
+            .navbar-a{
+                a{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    .container-input-all{
+        width: 100%;
+        .container-input{
+            width: 50%;
+            height: 35px;
+            .container-input-search{
+                width: 79%;
+                input{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 12px;
+                }
+            }
+            .container-input-button{
+                width: 19%;
+                button{
+                    width: 100%;
+                    height: 35px;
+                    font-size: 9px;
+                }
+            }
+        }
+
+        .container-contact{
+            width: 80%;
+            .contact-wrap{
+                i{
+                    font-size: 17px;
+                }
+                a{
+                    font-size: 9px;
+                    margin-left: 4px;
+                }
+            }
+        }
+    }
+    .container-sale{
+        width: 100%;
+        .container-d-flex{
+            width: 95%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            .container-sale-img{
+                width: 100%;
+                margin: 0;
+            }
+            .container-hot-deals{
+                width: 100%;
+                margin: 0;
+                margin-top: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                h2{
+                    font-size: 22px;
+                    text-align: center;
+                    width: 100%;
+                }
+                h1{
+                    font-size: 30px;
+                    width: 100%;
+                }
+            }
+        }
+        .container-button-next{
+           display: none;
+        }
+    }
+    .container-chair-vase{
+        flex-wrap: wrap;
+        .wrapper-chair{
+            width: 100%;
+            flex-wrap: wrap;
+            .wrap-chair-img{
+                width: 100%;
+            }
+            .wrap-chair-text{
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                padding-bottom: 25px;
+            }
+
+        }
+        .wrapper-vase{
+            width: 100%;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            .wrap-vase-img{
+                width: 100%;
+            }
+            .wrap-vase-text{
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                padding-bottom: 25px;
+            }
+        }
+    }
+    .container-box{
+        .box{
+            width: 49%;
+            .box-img{
+                height: 250px;
+            }
+        }
+    }
+    .container-bedsheet-sets{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        .mini-container-bedsheet{
+            width: 85%;
+            padding: 65px;
+        }
+    }
+    .container-top{
+        h1{
+            text-align: center;
+        }
+        .box-card{
+            width: 100%;
+        }
+    }
+    .container-sing-up{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        .text-sing-up{
+            text-align: center;
+        }
+        .container-sing-email{
+            width: 100%;
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 0px) and (max-width: 419.99px) {
+    nav{
+        width: 95%;
+        .navbar-container{
+            .navbar-img{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar-button{
+                width: 25%;
+                button{
+                    width: auto;
+                    font-size: 12px;
+                }
+            }
+        }
+        .navbar-container-site{
+            display: none;
+        }
+    }
+    .container-input-all{
+        width: 100%;
+        .container-input{
+            width: 75%;
+            height: 35px;
+            .container-input-search{
+                width: 79%;
+                input{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 9px;
+                }
+            }
+            .container-input-button{
+                width: 20%;
+                button{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 7px;
+                }
+            }
+        }
+
+        .container-contact{
+            width: 80%;
+            flex-wrap: wrap;
+            text-align: center;
+            .contact-wrap{
+                width: 100%;
+                margin-top: 20px;
+                i{
+                    font-size: 20px;
+                }
+                a{
+                    font-size: 9px;
+                    margin-left: 14px;
+                }
+            }
+        }
+    }
+    .container-sale{
+        width: 100%;
+        height: auto;
+        .container-d-flex{
+            width: 95%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            .container-sale-img{
+                width: 100%;
+                margin: 0;
+            }
+            .container-hot-deals{
+                width: 100%;
+                margin: 0;
+                margin-top: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                h2{
+                    font-size: 16px;
+                    text-align: center;
+                    width: 100%;
+                }
+                h1{
+                    font-size: 19px;
+                    width: 100%;
+                    margin: 0;
+                }
+                button{
+                    width: 80px;
+                    font-size: 13px;
+                }
+            }
+        }
+        .container-button-next{
+           display: none;
+        }
+    }
+    .container-chair-vase{
+        flex-wrap: wrap;
+        .wrapper-chair{
+            width: 100%;
+            flex-wrap: wrap;
+            .wrap-chair-img{
+                width: 100%;
+            }
+            .wrap-chair-text{
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                padding-bottom: 25px;
+            }
+
+        }
+        .wrapper-vase{
+            width: 100%;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            .wrap-vase-img{
+                width: 100%;
+            }
+            .wrap-vase-text{
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                padding-bottom: 25px;
+            }
+        }
+    }
+    .container-box{
+        .box{
+            width: 99%;
+            .box-img{
+                height: 350px;
+            }
+        }
+    }
+    .container-bedsheet-sets{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        .mini-container-bedsheet{
+            width: 85%;
+            height: auto;
+            padding: 35px;
+            h1{
+                font-size: 20px;
+            }
+            .discount{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+        }
+    }
+    .container-top{
+        h1{
+            text-align: center;
+        }
+        .box-card{
+            flex-wrap: wrap;
+            width: 100%;
+            .top-img{
+                width: 100%;
+            }
+            .top-text{
+                width: 100%;
+                padding: 0;
+                margin-top: 35px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+        .top-button{
+            button{
+                width: 110px;
+                height: 51px;
+            }
+        }
+    }
+    .container-sing-up{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        .text-sing-up{
+            text-align: center;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+        .container-sing-email{
+            width: 100%;
+            height: 35px;
+            input{
+                width: 70%;
+                font-size: 9px;
+                padding: 0;
+                padding-left: 10px;
+            }
+            button{
+                font-size: 13px;
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+        .footer-brand-name{
+            width: 100%;
+            .footer-messenger{
+                width: 99%;
+            }
+        }
+        .footer-promo-update{
+            width: 100%;
+        }
+    }
+}
